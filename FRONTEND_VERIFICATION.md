@@ -159,7 +159,6 @@ The database contains tokens from BOTH V1 and V2:
 
 ---
 
-## 🚀 Ready for Production
 
 **Status:** ✅ **FULLY READY**
 
