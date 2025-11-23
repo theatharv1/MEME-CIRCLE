@@ -1,0 +1,22 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.20"
+optimizer = true
+optimizer_runs = 200
+evm_version = "shanghai"
+via_ir = false
+
+# Remappings for OpenZeppelin
+remappings = [
+    "@openzeppelin/=lib/openzeppelin-contracts/"
+]
+
+# Citrea Testnet RPC
+[rpc_endpoints]
+citrea = "https://rpc.testnet.citrea.xyz"
+
+# Etherscan (Blockscout) verification
+[etherscan]
+citrea = { key = "none", url = "https://explorer.testnet.citrea.xyz/api" }
